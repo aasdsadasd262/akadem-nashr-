@@ -8,12 +8,14 @@
   font-size: 13px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  text-decoration: none;
   color: #000;
 }
 
 .main-link {
   background-color: #ff7500;
   color: #fff;
+  text-decoration: none;
 }
 
 .hero-section {
