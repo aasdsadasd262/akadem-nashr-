@@ -40,6 +40,7 @@
   gap: 32px;
 }
 
+
 .saytnav-link {
   font-family: var (--font-family);
   font-weight: 500;
@@ -48,12 +49,32 @@
   text-transform: uppercase;
   text-decoration: none;
   color: #000;
+  transition: color 1s ease
+}
+.saytnav-link:hover{
+  color: #ff7500;
+cursor: pointer;
+}
+.header-register {
+  background-color: #ff7500;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 1s ease
+}
+.header-register:hover {
+  background-color: #ffbb00;
+  cursor: pointer;
 }
 
 .main-link {
   background-color: #ff7500;
   color: #fff;
   text-decoration: none;
+  transition: opacity 1s ease
+}
+.main-link:hover {
+  cursor: pointer;
+  opacity: 0.7;
 }
 
 .hero-section {
@@ -201,6 +222,19 @@
 
 .footer-list {
   list-style: none;
- 
 
+}
+.footer-link {
+  transition: color 1s ease
+}
+.footer-link:hover {
+color: #ff7500;
+
+}
+.network {
+  transition: color 1s ease;
+}
+.network:hover {
+  background-color: #ff7500;
+cursor: pointer;
 }
